@@ -1,4 +1,4 @@
-package practicaltask.riseapps.com.practicaltask.ui.base;
+package com.riseapps.practicaltask.ui.base;
 
 import android.annotation.SuppressLint;
 import android.support.v7.app.AppCompatActivity;

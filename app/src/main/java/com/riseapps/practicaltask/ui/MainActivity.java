@@ -1,9 +1,9 @@
-package practicaltask.riseapps.com.practicaltask.ui;
+package com.riseapps.practicaltask.ui;
 
 import android.os.Bundle;
 
-import practicaltask.riseapps.com.practicaltask.R;
-import practicaltask.riseapps.com.practicaltask.ui.base.BaseActivity;
+import com.riseapps.practicaltask.R;
+import com.riseapps.practicaltask.ui.base.BaseActivity;
 
 public class MainActivity extends BaseActivity implements MainView {
     private final MainPresenter mainPresenter = new MainPresenter();

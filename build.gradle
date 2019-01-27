@@ -5,7 +5,7 @@ buildscript {
         mavenCentral()
     }
 
-    def gradle = '3.1.2'
+    def gradle = '3.3.0'
 
     dependencies {
         classpath "com.android.tools.build:gradle:${gradle}"

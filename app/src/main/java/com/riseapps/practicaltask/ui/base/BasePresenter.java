@@ -1,4 +1,4 @@
-package practicaltask.riseapps.com.practicaltask.ui.base;
+package com.riseapps.practicaltask.ui.base;
 
 import android.support.annotation.CheckResult;
 import android.support.annotation.Nullable;

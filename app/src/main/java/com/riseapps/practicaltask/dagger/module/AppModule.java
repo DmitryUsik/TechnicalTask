@@ -1,9 +1,10 @@
-package practicaltask.riseapps.com.practicaltask.dagger.module;
+package com.riseapps.practicaltask.dagger.module;
+
+import com.riseapps.practicaltask.PracticalTaskApp;
+import com.riseapps.practicaltask.dagger.PerApp;
 
 import dagger.Module;
 import dagger.Provides;
-import practicaltask.riseapps.com.practicaltask.PracticalTaskApp;
-import practicaltask.riseapps.com.practicaltask.dagger.PerApp;
 
 @Module
 public class AppModule {

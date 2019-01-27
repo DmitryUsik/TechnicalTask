@@ -1,4 +1,4 @@
-package practicaltask.riseapps.com.practicaltask.dagger;
+package com.riseapps.practicaltask.dagger;
 
 import java.lang.annotation.Retention;
 

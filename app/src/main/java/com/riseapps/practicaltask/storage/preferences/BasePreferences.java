@@ -1,4 +1,4 @@
-package practicaltask.riseapps.com.practicaltask.storage.preferences;
+package com.riseapps.practicaltask.storage.preferences;
 
 import android.content.SharedPreferences;
 import android.support.annotation.NonNull;

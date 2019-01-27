@@ -1,11 +1,11 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 27
+    compileSdkVersion 28
     defaultConfig {
-        applicationId "practicaltask.riseapps.com.practicaltask"
-        minSdkVersion 15
-        targetSdkVersion 27
+        applicationId "com.riseapps.practicaltask"
+        minSdkVersion 19
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -17,11 +17,6 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-
-    packagingOptions {
-        exclude 'META-INF/rxjava.properties'
-    }
-
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
@@ -38,7 +33,7 @@ android {
 def espresso = '2.2.2'
 def junit = '4.12'
 
-// architecture
+// di
 def dagger2 = '2.11'
 
 // network
@@ -46,12 +41,12 @@ def retrofit2 = '2.3.0'
 def ok_http = '3.9.0'
 
 // ui
-def support = '27.1.1'
+def support = '28.0.0'
 def butterknife = '8.8.1'
 
-// programming approach
+// rx
 def rx_java = '2.1.3'
-def rx_android = '2.0.1'
+def rx_android = '2.1.0'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
@@ -79,7 +74,6 @@ dependencies {
     // support
     implementation "com.android.support:support-v4:${support}"
     implementation "com.android.support:appcompat-v7:${support}"
-    implementation "com.android.support:recyclerview-v7:${support}"
 
     // butterknife
     implementation "com.jakewharton:butterknife:${butterknife}"
